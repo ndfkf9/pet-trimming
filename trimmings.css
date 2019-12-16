@@ -1,0 +1,96 @@
+  /* 全体 */
+.trimming {
+  width: 100%;
+  color: #333;
+}
+
+  /* ヘッダー */
+.header {
+  background-color: #fff;
+  padding: 40px;
+  height: 50px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  display: flex;
+  box-shadow: 0 0 10px 0 rgba(0,0,0,0.4);
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  margin-right: auto;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.logo h1 {
+  color: #00B200;
+  font-size: 35px;
+  padding: 0 10px;
+}
+
+.menu a{
+    text-decoration: none;
+    color: #333;
+    display: inline;
+    padding-left: 20px;
+    margin-left: auto;
+  }
+
+.menu a:hover {
+  color: #00CC00;
+}
+
+
+
+  /* メイン */
+.main{
+  background-color: #f0f0f0;
+  padding: 0 100px;
+}
+
+.subtitle {
+  font-size: 30px;
+  border-bottom: dashed 2px #00FF00;
+  display: block;
+  padding-top: 150px;
+  margin-top: -150px;
+}
+
+.content {
+  background-color: #fff;
+  white-space: pre-wrap;
+  margin-bottom: 40px;
+  padding: 30px;
+}
+
+
+.link {
+  text-decoration: none;
+  border-bottom: dashed 1px #00FF00;
+  color: #333;
+
+}
+.link:hover {
+  color: #00CC00;
+}
+
+/* 画像 */
+.image {
+  margin: 0 auto;
+  margin-bottom: 30px;
+  height: 550px;
+  width: 70%;
+  object-fit: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 10px 10px 10px rgba(0,0,0,0.4);
+}
+
+  /* フッター */
+.footer {
+  background-color: #f0f0f0;
+  height: 50px;
+  padding: 40px;
+}
