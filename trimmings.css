@@ -79,11 +79,10 @@
 .image {
   margin: 0 auto;
   margin-bottom: 30px;
-  background-color: gray;
+  background-color: #c0ffbf;
   height: 400px;
   width: 100vh;
   object-fit: contain;
-  object-fit: cover;
   display: flex;
   align-items: center;
   justify-content: center;
