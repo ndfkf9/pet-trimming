@@ -79,8 +79,10 @@
 .image {
   margin: 0 auto;
   margin-bottom: 30px;
-  height: 550px;
-  width: 70%;
+  background-color: gray;
+  height: 400px;
+  width: 100vh;
+  object-fit: contain;
   object-fit: cover;
   display: flex;
   align-items: center;
