@@ -1,0 +1,33 @@
+/* スマホ向けレイアウト */
+@media (max-width: 670px) {
+  .header {
+    display: block;
+    line-height: 25px;
+  }
+  
+  .logo {
+    display: inline;
+  }
+  
+  .logo h1 {
+    font-size: 20px;
+  }
+
+
+  .menu a{
+      padding-left: 20px;
+  }
+  
+  .main{
+    padding: 0 20px;
+  }
+
+  .content {
+    padding: 20px;
+  }
+
+  .image {
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.4);
+  }
+
+}
